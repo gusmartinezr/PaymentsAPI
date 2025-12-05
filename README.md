@@ -62,31 +62,34 @@ Returns:
 
 ## 📁 Project Structure
 
+```text
 WebApplication1/
 │── Application/
-│ ├── DTOs/
-│ ├── Interfaces/
-│ ├── Services/
-│ ├── Validators/
-│ └── Mapping/
+│   ├── DTOs/
+│   ├── Interfaces/
+│   ├── Services/
+│   └── Mapping/
 │
 │── Domain/
-│ ├── Entities/
-│ ├── Enums/
-│ ├── Constants/
+│   ├── Entities/
+│   ├── Enums/
+│   ├── Constants/
 │
 │── Infrastructure/
-│ ├── Persistence/
-│ ├── Configurations/
-│ ├── Repositories/
-│ └── Migrations/
+│── Persistence/
+│    ├── Configurations/
+│    ├── Migrations/
+│    └── PaymentsDbContext.cs
+│
+│── Repositories/
+│── DependencyInjection.cs
 │
 │── PaymentsAPI/
-│ ├── Controllers/
-│ ├── Program.cs
-│ ├── appsettings.json
-│ └── Swagger configuration
-
+│   ├── Controllers/
+│   ├── Program.cs
+│   ├── appsettings.json
+│   └── Swagger configuration
+```
 ## ⚙️ Installation
 
 Clone the repository:
