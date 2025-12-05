@@ -64,28 +64,28 @@ Returns:
 
 WebApplication1/
 │── Application/
-│   ├── DTOs/
-│   ├── Interfaces/
-│   ├── Services/
-│   ├── Validators/
-│   └── Mapping/
+│ ├── DTOs/
+│ ├── Interfaces/
+│ ├── Services/
+│ ├── Validators/
+│ └── Mapping/
 │
 │── Domain/
-│   ├── Entities/
-│   ├── Enums/
-│   ├── Constants/
+│ ├── Entities/
+│ ├── Enums/
+│ ├── Constants/
 │
 │── Infrastructure/
-│   ├── Persistence/
-│   ├── Configurations/
-│   ├── Repositories/
-│   └── Migrations/
+│ ├── Persistence/
+│ ├── Configurations/
+│ ├── Repositories/
+│ └── Migrations/
 │
 │── PaymentsAPI/
-│   ├── Controllers/
-│   ├── Program.cs
-│   ├── appsettings.json
-│   └── Swagger configuration
+│ ├── Controllers/
+│ ├── Program.cs
+│ ├── appsettings.json
+│ └── Swagger configuration
 
 ## ⚙️ Installation
 
